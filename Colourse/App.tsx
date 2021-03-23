@@ -7,10 +7,14 @@ import themes from './src/theme';
 
 const Wrapper = styled.View`
   background-color: ${({theme}) => theme.colors.background};
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Label = styled.Text`
-  background-color: ${({theme}) => theme.colors.text};
+  color: ${({theme}) => theme.colors.text};
+  font-size: 24px;
 `;
 
 const App = () => {
@@ -20,7 +24,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Wrapper>
-        <Label>Label</Label>
+        <Label>{deviceColorScheme}</Label>
       </Wrapper>
     </ThemeProvider>
   );

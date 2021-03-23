@@ -2,8 +2,8 @@ import {DefaultTheme} from 'styled-components';
 
 const light: DefaultTheme = {
   colors: {
-    background: '#000',
-    text: '#FFF',
+    background: '#FFF',
+    text: '#000',
   },
 };
 
