@@ -7,6 +7,12 @@ Este projeto é para apresentar como utilizar as preferências do sistema do cel
 <img width="350" src=".github/light.png" />
 </div>
 
+## Como foi construído?
+
+O hook **useColorScheme()** é um hook que disponibiliza a aparência utilizada pelo usuário.
+
+https://reactnative.dev/docs/usecolorscheme
+
 ## 👨‍💻️ Tecnologias Utilizadas
 
 Esse projeto foi construído utilizando as seguintes tecnologias:
